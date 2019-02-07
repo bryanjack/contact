@@ -1,0 +1,26 @@
+{
+    "name": "bryan/contact",
+    "description": "This will send email and add record to the db",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryan Jack",
+            "email": "bryanjack99@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bryan\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bryan\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
